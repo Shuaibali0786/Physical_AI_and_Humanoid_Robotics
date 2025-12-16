@@ -1,0 +1,24 @@
+{
+  "id": "modules/physical-ai-fundamentals/index",
+  "title": "Module 2: Physical AI Fundamentals",
+  "description": "Learning Objectives",
+  "source": "@site/docs/modules/physical-ai-fundamentals/index.md",
+  "sourceDirName": "modules/physical-ai-fundamentals",
+  "slug": "/modules/physical-ai-fundamentals/",
+  "permalink": "/modules/physical-ai-fundamentals/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/physical-ai-fundamentals/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Exercises: Humanoid Robot Modeling with URDF",
+    "permalink": "/modules/ros2-nervous-system/humanoid-modeling/exercises"
+  },
+  "next": {
+    "title": "Introduction to Physical AI",
+    "permalink": "/modules/physical-ai-fundamentals/introduction"
+  }
+}

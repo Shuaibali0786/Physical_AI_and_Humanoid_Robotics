@@ -1,0 +1,23 @@
+{
+  "id": "modules/ros2-nervous-system/humanoid-modeling/simulation-setup",
+  "title": "Simulation Setup for Humanoid Robots",
+  "description": "Overview",
+  "source": "@site/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup.md",
+  "sourceDirName": "modules/ros2-nervous-system/humanoid-modeling",
+  "slug": "/modules/ros2-nervous-system/humanoid-modeling/simulation-setup",
+  "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "URDF Structure for Humanoid Robots",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure"
+  },
+  "next": {
+    "title": "Exercises: Humanoid Robot Modeling with URDF",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/exercises"
+  }
+}

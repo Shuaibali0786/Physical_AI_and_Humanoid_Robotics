@@ -1,0 +1,23 @@
+{
+  "id": "module4-vla/multimodal-interaction",
+  "title": "Multi-modal Interaction: Speech, Gesture, and Vision",
+  "description": "Introduction to Multi-modal Interaction",
+  "source": "@site/docs/module4-vla/multimodal-interaction.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/multimodal-interaction",
+  "permalink": "/docs/module4-vla/multimodal-interaction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Speech Recognition and Natural Language Understanding",
+    "permalink": "/docs/module4-vla/speech-recognition"
+  },
+  "next": {
+    "title": "Capstone Project: Autonomous Humanoid",
+    "permalink": "/docs/module4-vla/capstone-project"
+  }
+}

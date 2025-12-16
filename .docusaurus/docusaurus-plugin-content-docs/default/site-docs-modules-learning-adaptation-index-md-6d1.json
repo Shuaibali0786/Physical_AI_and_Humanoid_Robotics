@@ -1,0 +1,24 @@
+{
+  "id": "modules/learning-adaptation/index",
+  "title": "Module 5: Learning and Adaptation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/modules/learning-adaptation/index.md",
+  "sourceDirName": "modules/learning-adaptation",
+  "slug": "/modules/learning-adaptation/",
+  "permalink": "/modules/learning-adaptation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/learning-adaptation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Actuator Technologies",
+    "permalink": "/modules/control-systems-actuation/actuator-tech"
+  },
+  "next": {
+    "title": "Lifelong Learning Systems",
+    "permalink": "/modules/learning-adaptation/lifelong-learning"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modules/physical-ai-fundamentals/introduction",
+  "title": "Introduction to Physical AI",
+  "description": "What is Physical AI?",
+  "source": "@site/docs/modules/physical-ai-fundamentals/introduction.md",
+  "sourceDirName": "modules/physical-ai-fundamentals",
+  "slug": "/modules/physical-ai-fundamentals/introduction",
+  "permalink": "/modules/physical-ai-fundamentals/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/physical-ai-fundamentals/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 2: Physical AI Fundamentals",
+    "permalink": "/modules/physical-ai-fundamentals/"
+  },
+  "next": {
+    "title": "Embodied Cognition Principles",
+    "permalink": "/modules/physical-ai-fundamentals/embodied-cognition"
+  }
+}

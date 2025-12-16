@@ -1,0 +1,24 @@
+{
+  "id": "modules/sensory-systems-perception/tactile-sensing",
+  "title": "Tactile and Proprioceptive Sensing",
+  "description": "Introduction to Tactile Sensing",
+  "source": "@site/docs/modules/sensory-systems-perception/tactile-sensing.md",
+  "sourceDirName": "modules/sensory-systems-perception",
+  "slug": "/modules/sensory-systems-perception/tactile-sensing",
+  "permalink": "/modules/sensory-systems-perception/tactile-sensing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/sensory-systems-perception/tactile-sensing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Visual Perception for Humanoids",
+    "permalink": "/modules/sensory-systems-perception/visual-perception"
+  },
+  "next": {
+    "title": "Module 4: Control Systems and Actuation",
+    "permalink": "/modules/control-systems-actuation/"
+  }
+}

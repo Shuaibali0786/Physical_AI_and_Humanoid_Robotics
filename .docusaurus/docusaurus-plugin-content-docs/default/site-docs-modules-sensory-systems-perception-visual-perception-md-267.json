@@ -1,0 +1,24 @@
+{
+  "id": "modules/sensory-systems-perception/visual-perception",
+  "title": "Visual Perception for Humanoids",
+  "description": "Introduction to Robot Vision",
+  "source": "@site/docs/modules/sensory-systems-perception/visual-perception.md",
+  "sourceDirName": "modules/sensory-systems-perception",
+  "slug": "/modules/sensory-systems-perception/visual-perception",
+  "permalink": "/modules/sensory-systems-perception/visual-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/sensory-systems-perception/visual-perception.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Multimodal Sensor Integration",
+    "permalink": "/modules/sensory-systems-perception/multimodal-sensors"
+  },
+  "next": {
+    "title": "Tactile and Proprioceptive Sensing",
+    "permalink": "/modules/sensory-systems-perception/tactile-sensing"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modules/control-systems-actuation/classical-control",
+  "title": "Classical Control Methods",
+  "description": "Introduction to Robot Control",
+  "source": "@site/docs/modules/control-systems-actuation/classical-control.md",
+  "sourceDirName": "modules/control-systems-actuation",
+  "slug": "/modules/control-systems-actuation/classical-control",
+  "permalink": "/modules/control-systems-actuation/classical-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/control-systems-actuation/classical-control.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 4: Control Systems and Actuation",
+    "permalink": "/modules/control-systems-actuation/"
+  },
+  "next": {
+    "title": "Learning-Based Control",
+    "permalink": "/modules/control-systems-actuation/learning-control"
+  }
+}

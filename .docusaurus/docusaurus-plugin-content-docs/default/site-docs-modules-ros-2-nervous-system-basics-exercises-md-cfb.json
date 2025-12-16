@@ -1,0 +1,23 @@
+{
+  "id": "modules/ros2-nervous-system/basics/exercises",
+  "title": "Exercises: ROS 2 Basics",
+  "description": "Exercise 1: Understanding Nodes, Topics, and Services",
+  "source": "@site/docs/modules/ros2-nervous-system/basics/exercises.md",
+  "sourceDirName": "modules/ros2-nervous-system/basics",
+  "slug": "/modules/ros2-nervous-system/basics/exercises",
+  "permalink": "/docs/modules/ros2-nervous-system/basics/exercises",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Communication Patterns in ROS 2",
+    "permalink": "/docs/modules/ros2-nervous-system/basics/communication-patterns"
+  },
+  "next": {
+    "title": "Python Agents & ROS 2 Integration",
+    "permalink": "/docs/modules/ros2-nervous-system/python-integration/"
+  }
+}

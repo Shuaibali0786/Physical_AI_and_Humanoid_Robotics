@@ -1,0 +1,23 @@
+{
+  "id": "module3-isaac/nav2-planning",
+  "title": "Nav2 Path Planning for Bipedal Humanoids",
+  "description": "Introduction to Navigation for Humanoid Robots",
+  "source": "@site/docs/module3-isaac/nav2-planning.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/nav2-planning",
+  "permalink": "/docs/module3-isaac/nav2-planning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Isaac ROS: Hardware-Accelerated VSLAM",
+    "permalink": "/docs/module3-isaac/isaac-ros-vslam"
+  },
+  "next": {
+    "title": "Perception and Manipulation with Isaac Sim",
+    "permalink": "/docs/module3-isaac/perception-manipulation"
+  }
+}

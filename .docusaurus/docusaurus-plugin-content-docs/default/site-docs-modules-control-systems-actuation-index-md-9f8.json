@@ -1,0 +1,24 @@
+{
+  "id": "modules/control-systems-actuation/index",
+  "title": "Module 4: Control Systems and Actuation",
+  "description": "Learning Objectives",
+  "source": "@site/docs/modules/control-systems-actuation/index.md",
+  "sourceDirName": "modules/control-systems-actuation",
+  "slug": "/modules/control-systems-actuation/",
+  "permalink": "/modules/control-systems-actuation/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/control-systems-actuation/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Tactile and Proprioceptive Sensing",
+    "permalink": "/modules/sensory-systems-perception/tactile-sensing"
+  },
+  "next": {
+    "title": "Classical Control Methods",
+    "permalink": "/modules/control-systems-actuation/classical-control"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "module2-digital-twin/urdf-sdf",
+  "title": "URDF and SDF Formats",
+  "description": "Introduction to Robot Description Formats",
+  "source": "@site/docs/module2-digital-twin/urdf-sdf.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/urdf-sdf",
+  "permalink": "/docs/module2-digital-twin/urdf-sdf",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Gazebo Environment Setup",
+    "permalink": "/docs/module2-digital-twin/gazebo-setup"
+  },
+  "next": {
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/docs/module3-isaac/intro"
+  }
+}

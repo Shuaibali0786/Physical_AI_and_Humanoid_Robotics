@@ -1,0 +1,23 @@
+{
+  "id": "modules/ros2-nervous-system/basics/nodes-topics-services",
+  "title": "ROS 2 Nodes, Topics, and Services",
+  "description": "Nodes",
+  "source": "@site/docs/modules/ros2-nervous-system/basics/nodes-topics-services.md",
+  "sourceDirName": "modules/ros2-nervous-system/basics",
+  "slug": "/modules/ros2-nervous-system/basics/nodes-topics-services",
+  "permalink": "/docs/modules/ros2-nervous-system/basics/nodes-topics-services",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "ROS 2 Basics & Middleware",
+    "permalink": "/docs/modules/ros2-nervous-system/basics/"
+  },
+  "next": {
+    "title": "Communication Patterns in ROS 2",
+    "permalink": "/docs/modules/ros2-nervous-system/basics/communication-patterns"
+  }
+}

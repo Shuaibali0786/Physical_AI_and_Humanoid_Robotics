@@ -1,0 +1,23 @@
+{
+  "id": "module2-digital-twin/gazebo-setup",
+  "title": "Gazebo Environment Setup",
+  "description": "Introduction to Gazebo Environment Configuration",
+  "source": "@site/docs/module2-digital-twin/gazebo-setup.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/gazebo-setup",
+  "permalink": "/docs/module2-digital-twin/gazebo-setup",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Simulating Sensors: LiDAR, Depth Cameras, IMUs",
+    "permalink": "/docs/module2-digital-twin/sensor-simulation"
+  },
+  "next": {
+    "title": "URDF and SDF Formats",
+    "permalink": "/docs/module2-digital-twin/urdf-sdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modules/human-robot-interaction/collaborative-robotics",
+  "title": "Collaborative Robotics",
+  "description": "Introduction to Human-Robot Collaboration",
+  "source": "@site/docs/modules/human-robot-interaction/collaborative-robotics.md",
+  "sourceDirName": "modules/human-robot-interaction",
+  "slug": "/modules/human-robot-interaction/collaborative-robotics",
+  "permalink": "/modules/human-robot-interaction/collaborative-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/human-robot-interaction/collaborative-robotics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Social Robotics and Communication",
+    "permalink": "/modules/human-robot-interaction/social-robotics"
+  },
+  "next": {
+    "title": "Trust and Acceptance",
+    "permalink": "/modules/human-robot-interaction/trust-acceptance"
+  }
+}

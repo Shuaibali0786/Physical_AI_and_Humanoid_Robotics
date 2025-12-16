@@ -1,0 +1,23 @@
+{
+  "id": "module3-isaac/sim-to-real",
+  "title": "Sim-to-Real Transfer",
+  "description": "Introduction to Sim-to-Real Transfer",
+  "source": "@site/docs/module3-isaac/sim-to-real.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/sim-to-real",
+  "permalink": "/docs/module3-isaac/sim-to-real",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Reinforcement Learning in Robotics with Isaac Sim",
+    "permalink": "/docs/module3-isaac/reinforcement-learning"
+  },
+  "next": {
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/docs/module4-vla/intro"
+  }
+}

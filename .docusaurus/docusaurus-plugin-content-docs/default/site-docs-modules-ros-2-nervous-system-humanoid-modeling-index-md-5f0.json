@@ -1,0 +1,26 @@
+{
+  "id": "modules/ros2-nervous-system/humanoid-modeling/index",
+  "title": "Humanoid Robot Modeling with URDF",
+  "description": "This section covers the creation of humanoid robot models using URDF (Unified Robot Description Format). URDF is an XML-based format that describes robots in terms of links, joints, and other elements necessary for modeling robotic systems.",
+  "source": "@site/docs/modules/ros2-nervous-system/humanoid-modeling/index.md",
+  "sourceDirName": "modules/ros2-nervous-system/humanoid-modeling",
+  "slug": "/modules/ros2-nervous-system/humanoid-modeling/",
+  "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "modules",
+  "previous": {
+    "title": "Exercises: Python Agents & ROS 2 Integration",
+    "permalink": "/docs/modules/ros2-nervous-system/python-integration/exercises"
+  },
+  "next": {
+    "title": "URDF Structure for Humanoid Robots",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure"
+  }
+}

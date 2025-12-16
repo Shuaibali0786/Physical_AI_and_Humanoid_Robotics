@@ -1,0 +1,23 @@
+{
+  "id": "module3-isaac/synthetic-data",
+  "title": "Synthetic Data Generation",
+  "description": "Introduction to Synthetic Data in Robotics",
+  "source": "@site/docs/module3-isaac/synthetic-data.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/synthetic-data",
+  "permalink": "/docs/module3-isaac/synthetic-data",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "NVIDIA Isaac Sim: Photorealistic Simulation",
+    "permalink": "/docs/module3-isaac/isaac-sim"
+  },
+  "next": {
+    "title": "Isaac ROS: Hardware-Accelerated VSLAM",
+    "permalink": "/docs/module3-isaac/isaac-ros-vslam"
+  }
+}

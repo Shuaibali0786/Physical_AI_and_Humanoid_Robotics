@@ -1,0 +1,24 @@
+{
+  "id": "modules/human-robot-interaction/index",
+  "title": "Module 6: Human-Robot Interaction",
+  "description": "Learning Objectives",
+  "source": "@site/docs/modules/human-robot-interaction/index.md",
+  "sourceDirName": "modules/human-robot-interaction",
+  "slug": "/modules/human-robot-interaction/",
+  "permalink": "/modules/human-robot-interaction/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/human-robot-interaction/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Adaptive Control Strategies",
+    "permalink": "/modules/learning-adaptation/adaptive-control"
+  },
+  "next": {
+    "title": "Social Robotics and Communication",
+    "permalink": "/modules/human-robot-interaction/social-robotics"
+  }
+}

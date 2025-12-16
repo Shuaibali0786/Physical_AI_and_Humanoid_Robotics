@@ -1,0 +1,24 @@
+{
+  "id": "modules/human-robot-interaction/social-robotics",
+  "title": "Social Robotics and Communication",
+  "description": "Introduction to Social Robotics",
+  "source": "@site/docs/modules/human-robot-interaction/social-robotics.md",
+  "sourceDirName": "modules/human-robot-interaction",
+  "slug": "/modules/human-robot-interaction/social-robotics",
+  "permalink": "/modules/human-robot-interaction/social-robotics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/human-robot-interaction/social-robotics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 6: Human-Robot Interaction",
+    "permalink": "/modules/human-robot-interaction/"
+  },
+  "next": {
+    "title": "Collaborative Robotics",
+    "permalink": "/modules/human-robot-interaction/collaborative-robotics"
+  }
+}

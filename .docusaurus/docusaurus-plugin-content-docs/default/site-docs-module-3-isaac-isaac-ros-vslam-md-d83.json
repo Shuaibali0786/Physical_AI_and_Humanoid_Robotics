@@ -1,0 +1,23 @@
+{
+  "id": "module3-isaac/isaac-ros-vslam",
+  "title": "Isaac ROS: Hardware-Accelerated VSLAM",
+  "description": "Introduction to Isaac ROS",
+  "source": "@site/docs/module3-isaac/isaac-ros-vslam.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/isaac-ros-vslam",
+  "permalink": "/docs/module3-isaac/isaac-ros-vslam",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Synthetic Data Generation",
+    "permalink": "/docs/module3-isaac/synthetic-data"
+  },
+  "next": {
+    "title": "Nav2 Path Planning for Bipedal Humanoids",
+    "permalink": "/docs/module3-isaac/nav2-planning"
+  }
+}

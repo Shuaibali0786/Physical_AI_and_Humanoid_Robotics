@@ -1,0 +1,20 @@
+{
+  "id": "modules/human-robot-interaction/trust-acceptance",
+  "title": "Trust and Acceptance",
+  "description": "Introduction to Trust in Human-Robot Interaction",
+  "source": "@site/docs/modules/human-robot-interaction/trust-acceptance.md",
+  "sourceDirName": "modules/human-robot-interaction",
+  "slug": "/modules/human-robot-interaction/trust-acceptance",
+  "permalink": "/modules/human-robot-interaction/trust-acceptance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/human-robot-interaction/trust-acceptance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Collaborative Robotics",
+    "permalink": "/modules/human-robot-interaction/collaborative-robotics"
+  }
+}

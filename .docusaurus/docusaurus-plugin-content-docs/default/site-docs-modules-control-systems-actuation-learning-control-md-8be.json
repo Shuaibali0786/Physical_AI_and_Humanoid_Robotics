@@ -1,0 +1,24 @@
+{
+  "id": "modules/control-systems-actuation/learning-control",
+  "title": "Learning-Based Control",
+  "description": "Introduction to Learning-Based Control",
+  "source": "@site/docs/modules/control-systems-actuation/learning-control.md",
+  "sourceDirName": "modules/control-systems-actuation",
+  "slug": "/modules/control-systems-actuation/learning-control",
+  "permalink": "/modules/control-systems-actuation/learning-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/control-systems-actuation/learning-control.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Classical Control Methods",
+    "permalink": "/modules/control-systems-actuation/classical-control"
+  },
+  "next": {
+    "title": "Actuator Technologies",
+    "permalink": "/modules/control-systems-actuation/actuator-tech"
+  }
+}

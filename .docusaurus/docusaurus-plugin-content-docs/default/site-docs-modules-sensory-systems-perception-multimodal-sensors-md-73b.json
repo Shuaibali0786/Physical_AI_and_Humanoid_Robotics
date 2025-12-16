@@ -1,0 +1,24 @@
+{
+  "id": "modules/sensory-systems-perception/multimodal-sensors",
+  "title": "Multimodal Sensor Integration",
+  "description": "Introduction to Multimodal Sensing",
+  "source": "@site/docs/modules/sensory-systems-perception/multimodal-sensors.md",
+  "sourceDirName": "modules/sensory-systems-perception",
+  "slug": "/modules/sensory-systems-perception/multimodal-sensors",
+  "permalink": "/modules/sensory-systems-perception/multimodal-sensors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/sensory-systems-perception/multimodal-sensors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 3: Sensory Systems and Perception",
+    "permalink": "/modules/sensory-systems-perception/"
+  },
+  "next": {
+    "title": "Visual Perception for Humanoids",
+    "permalink": "/modules/sensory-systems-perception/visual-perception"
+  }
+}

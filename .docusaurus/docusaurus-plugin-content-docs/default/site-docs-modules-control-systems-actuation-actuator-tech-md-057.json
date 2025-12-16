@@ -1,0 +1,24 @@
+{
+  "id": "modules/control-systems-actuation/actuator-tech",
+  "title": "Actuator Technologies",
+  "description": "Introduction to Robot Actuators",
+  "source": "@site/docs/modules/control-systems-actuation/actuator-tech.md",
+  "sourceDirName": "modules/control-systems-actuation",
+  "slug": "/modules/control-systems-actuation/actuator-tech",
+  "permalink": "/modules/control-systems-actuation/actuator-tech",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/control-systems-actuation/actuator-tech.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Learning-Based Control",
+    "permalink": "/modules/control-systems-actuation/learning-control"
+  },
+  "next": {
+    "title": "Module 5: Learning and Adaptation",
+    "permalink": "/modules/learning-adaptation/"
+  }
+}

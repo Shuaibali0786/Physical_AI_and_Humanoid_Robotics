@@ -1,0 +1,306 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* Custom CSS for Physical AI & Humanoid Robotics Book */
+/* Blue gradient styling and enhanced design */
+
+/* Custom colors with blue gradient theme */
+:root {
+  --ifm-color-primary: #1e40af; /* blue-800 */
+  --ifm-color-primary-dark: #1e3a8a; /* blue-900 */
+  --ifm-color-primary-darker: #1e3577; /* darker blue */
+  --ifm-color-primary-darkest: #0f172a; /* slate-900 */
+  --ifm-color-primary-light: #3b82f6; /* blue-500 */
+  --ifm-color-primary-lighter: #60a5fa; /* blue-400 */
+  --ifm-color-primary-lightest: #93c5fd; /* blue-300 */
+  --ifm-code-font-size: 95%;
+  --gradient-start: #1e3a8a; /* blue-900 */
+  --gradient-end: #3b82f6; /* blue-500 */
+  
+  /* Light mode colors */
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #1c1e21;
+  --ifm-navbar-background-color: #ffffff;
+}
+
+/* Dark mode specific styles */
+[data-theme='dark'] {
+  --ifm-color-primary: #3b82f6; /* blue-500 */
+  --ifm-color-primary-dark: #1e40af; /* blue-800 */
+  --ifm-color-primary-darker: #1e3577; /* darker blue */
+  --ifm-color-primary-darkest: #0f172a; /* slate-900 */
+  --ifm-color-primary-light: #60a5fa; /* blue-400 */
+  --ifm-color-primary-lighter: #93c5fd; /* blue-300 */
+  --ifm-color-primary-lightest: #dbeafe; /* blue-100 */
+  
+  /* Dark mode background and text for better readability */
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-font-color-base: #e2e8f0;
+  --ifm-navbar-background-color: #0f172a;
+  --ifm-footer-background-color: #020617;
+}
+
+/* Smooth transition when switching themes */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Blue gradient background for hero section */
+.hero--primary {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%) !important;
+  color: white;
+}
+
+/* Enhanced button styles */
+.button--primary {
+  background-color: white !important;
+  color: var(--ifm-color-primary-dark) !important;
+  border: 1px solid transparent;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-lighter) !important;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button--secondary {
+  background-color: transparent !important;
+  border: 2px solid white !important;
+  color: white !important;
+}
+
+.button--secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced card and feature styling */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Custom badge styles */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background-color: rgba(30, 58, 138, 0.1);
+  color: var(--ifm-color-primary);
+  margin: 0.25rem;
+  font-size: 0.875rem;
+  border: 1px solid rgba(30, 58, 138, 0.2);
+}
+
+/* Enhanced footer with dark background and icons */
+.footer {
+  background-color: #0f172a !important; /* slate-900 */
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer__links {
+  margin-bottom: 1.5rem;
+}
+
+.footer__title {
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+.footer__item a {
+  color: var(--ifm-color-primary-lighter);
+  transition: color 0.2s ease;
+}
+
+.footer__item a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Footer icon styling */
+.footer-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Enhanced navigation */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #0f172a;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+}
+
+/* 🌙☀️ Color Mode Toggle Button Styling */
+.navbar__item {
+  transition: all 0.2s ease;
+}
+
+button[class*="colorModeToggle"] {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+button[class*="colorModeToggle"]:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* Sidebar enhancements */
+.menu {
+  border-right: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Table of contents styling */
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Code block enhancements */
+.codeBlockContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  border: 1px solid rgba(30, 58, 138, 0.1);
+  border-radius: 0.5rem;
+}
+
+/* Heading enhancements */
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] h6 {
+  background: linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Link enhancements */
+.markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.markdown a:hover {
+  color: var(--ifm-color-primary-darker);
+  text-decoration-thickness: 3px;
+}
+
+/* Blockquote enhancements */
+blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: rgba(30, 58, 138, 0.05);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+[data-theme='dark'] blockquote {
+  background-color: rgba(59, 130, 246, 0.1);
+  border-left-color: #60a5fa;
+}
+
+/* Responsive design enhancements */
+@media (max-width: 996px) {
+  .hero--primary {
+    padding: 2rem 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 !important;
+  }
+}
+
+/* Hover effects for interactive elements */
+a:hover,
+button:hover {
+  transition: all 0.2s ease;
+}
+
+/* Enhanced table styling */
+.markdown table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.markdown table th,
+.markdown table td {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.markdown table th {
+  background-color: rgba(30, 58, 138, 0.05);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .markdown table th {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Better readability in dark mode */
+[data-theme='dark'] .markdown {
+  color: #e2e8f0;
+}
+
+[data-theme='dark'] .markdown p,
+[data-theme='dark'] .markdown li {
+  color: #cbd5e1;
+}

@@ -1,0 +1,214 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/gazebo-physics",
+              "path": "/docs/module2-digital-twin/gazebo-physics",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module2-digital-twin/gazebo-setup",
+              "path": "/docs/module2-digital-twin/gazebo-setup",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module2-digital-twin/intro",
+              "path": "/docs/module2-digital-twin/intro",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module2-digital-twin/sensor-simulation",
+              "path": "/docs/module2-digital-twin/sensor-simulation",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module2-digital-twin/unity-rendering",
+              "path": "/docs/module2-digital-twin/unity-rendering",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module2-digital-twin/urdf-sdf",
+              "path": "/docs/module2-digital-twin/urdf-sdf",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/intro",
+              "path": "/docs/module3-isaac/intro",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/isaac-ros-vslam",
+              "path": "/docs/module3-isaac/isaac-ros-vslam",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/isaac-sim",
+              "path": "/docs/module3-isaac/isaac-sim",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/nav2-planning",
+              "path": "/docs/module3-isaac/nav2-planning",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/perception-manipulation",
+              "path": "/docs/module3-isaac/perception-manipulation",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/reinforcement-learning",
+              "path": "/docs/module3-isaac/reinforcement-learning",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/sim-to-real",
+              "path": "/docs/module3-isaac/sim-to-real",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module3-isaac/synthetic-data",
+              "path": "/docs/module3-isaac/synthetic-data",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/capstone-project",
+              "path": "/docs/module4-vla/capstone-project",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/cognitive-planning",
+              "path": "/docs/module4-vla/cognitive-planning",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/intro",
+              "path": "/docs/module4-vla/intro",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/multimodal-interaction",
+              "path": "/docs/module4-vla/multimodal-interaction",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/speech-recognition",
+              "path": "/docs/module4-vla/speech-recognition",
+              "sidebar": "modules"
+            },
+            {
+              "id": "module4-vla/voice-to-action",
+              "path": "/docs/module4-vla/voice-to-action",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/basics/communication-patterns",
+              "path": "/docs/modules/ros2-nervous-system/basics/communication-patterns",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/basics/exercises",
+              "path": "/docs/modules/ros2-nervous-system/basics/exercises",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/basics/index",
+              "path": "/docs/modules/ros2-nervous-system/basics/",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/basics/nodes-topics-services",
+              "path": "/docs/modules/ros2-nervous-system/basics/nodes-topics-services",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/humanoid-modeling/exercises",
+              "path": "/docs/modules/ros2-nervous-system/humanoid-modeling/exercises",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/humanoid-modeling/index",
+              "path": "/docs/modules/ros2-nervous-system/humanoid-modeling/",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/humanoid-modeling/simulation-setup",
+              "path": "/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/humanoid-modeling/urdf-structure",
+              "path": "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/index",
+              "path": "/docs/modules/ros2-nervous-system/",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/python-integration/agent-communication",
+              "path": "/docs/modules/ros2-nervous-system/python-integration/agent-communication",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/python-integration/exercises",
+              "path": "/docs/modules/ros2-nervous-system/python-integration/exercises",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/python-integration/index",
+              "path": "/docs/modules/ros2-nervous-system/python-integration/",
+              "sidebar": "modules"
+            },
+            {
+              "id": "modules/ros2-nervous-system/python-integration/rclpy-basics",
+              "path": "/docs/modules/ros2-nervous-system/python-integration/rclpy-basics",
+              "sidebar": "modules"
+            },
+            {
+              "id": "references/ros2-sources",
+              "path": "/docs/references/ros2-sources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorials/simple-robot-demo",
+              "path": "/docs/tutorials/simple-robot-demo",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "index"
+              }
+            },
+            "modules": {
+              "link": {
+                "path": "/docs/modules/ros2-nervous-system/",
+                "label": "modules/ros2-nervous-system/index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

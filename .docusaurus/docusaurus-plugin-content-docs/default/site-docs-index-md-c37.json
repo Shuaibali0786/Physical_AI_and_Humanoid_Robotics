@@ -1,0 +1,21 @@
+{
+  "id": "index",
+  "title": "Welcome to AI Humanoid Robotics",
+  "description": "An Interactive Digital Book",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Simulating Physics, Gravity, and Collisions in Gazebo",
+    "permalink": "/docs/module2-digital-twin/gazebo-physics"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modules/learning-adaptation/skill-acquisition",
+  "title": "Skill Acquisition and Transfer",
+  "description": "Introduction to Robotic Skill Learning",
+  "source": "@site/docs/modules/learning-adaptation/skill-acquisition.md",
+  "sourceDirName": "modules/learning-adaptation",
+  "slug": "/modules/learning-adaptation/skill-acquisition",
+  "permalink": "/modules/learning-adaptation/skill-acquisition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/learning-adaptation/skill-acquisition.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Lifelong Learning Systems",
+    "permalink": "/modules/learning-adaptation/lifelong-learning"
+  },
+  "next": {
+    "title": "Adaptive Control Strategies",
+    "permalink": "/modules/learning-adaptation/adaptive-control"
+  }
+}

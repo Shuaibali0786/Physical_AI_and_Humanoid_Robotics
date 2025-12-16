@@ -1,0 +1,24 @@
+{
+  "id": "modules/physical-ai-fundamentals/embodied-cognition",
+  "title": "Embodied Cognition Principles",
+  "description": "Understanding Embodied Cognition",
+  "source": "@site/docs/modules/physical-ai-fundamentals/embodied-cognition.md",
+  "sourceDirName": "modules/physical-ai-fundamentals",
+  "slug": "/modules/physical-ai-fundamentals/embodied-cognition",
+  "permalink": "/modules/physical-ai-fundamentals/embodied-cognition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/physical-ai-fundamentals/embodied-cognition.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Introduction to Physical AI",
+    "permalink": "/modules/physical-ai-fundamentals/introduction"
+  },
+  "next": {
+    "title": "Physics-Informed Machine Learning",
+    "permalink": "/modules/physical-ai-fundamentals/physics-informed-ml"
+  }
+}

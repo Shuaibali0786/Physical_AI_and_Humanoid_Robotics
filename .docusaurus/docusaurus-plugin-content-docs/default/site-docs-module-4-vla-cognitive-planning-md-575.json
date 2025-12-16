@@ -1,0 +1,23 @@
+{
+  "id": "module4-vla/cognitive-planning",
+  "title": "Cognitive Planning with LLMs to ROS 2 Actions",
+  "description": "Introduction to Cognitive Planning",
+  "source": "@site/docs/module4-vla/cognitive-planning.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/cognitive-planning",
+  "permalink": "/docs/module4-vla/cognitive-planning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Voice-to-Action with OpenAI Whisper",
+    "permalink": "/docs/module4-vla/voice-to-action"
+  },
+  "next": {
+    "title": "Speech Recognition and Natural Language Understanding",
+    "permalink": "/docs/module4-vla/speech-recognition"
+  }
+}

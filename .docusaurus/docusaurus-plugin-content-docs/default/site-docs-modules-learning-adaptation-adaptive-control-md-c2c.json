@@ -1,0 +1,24 @@
+{
+  "id": "modules/learning-adaptation/adaptive-control",
+  "title": "Adaptive Control Strategies",
+  "description": "Introduction to Adaptive Control",
+  "source": "@site/docs/modules/learning-adaptation/adaptive-control.md",
+  "sourceDirName": "modules/learning-adaptation",
+  "slug": "/modules/learning-adaptation/adaptive-control",
+  "permalink": "/modules/learning-adaptation/adaptive-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/learning-adaptation/adaptive-control.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Skill Acquisition and Transfer",
+    "permalink": "/modules/learning-adaptation/skill-acquisition"
+  },
+  "next": {
+    "title": "Module 6: Human-Robot Interaction",
+    "permalink": "/modules/human-robot-interaction/"
+  }
+}

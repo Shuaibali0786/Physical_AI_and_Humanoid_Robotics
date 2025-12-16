@@ -1,0 +1,23 @@
+{
+  "id": "module2-digital-twin/gazebo-physics",
+  "title": "Simulating Physics, Gravity, and Collisions in Gazebo",
+  "description": "Introduction to Gazebo Physics",
+  "source": "@site/docs/module2-digital-twin/gazebo-physics.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/gazebo-physics",
+  "permalink": "/docs/module2-digital-twin/gazebo-physics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/docs/module2-digital-twin/intro"
+  },
+  "next": {
+    "title": "High-Fidelity Rendering in Unity",
+    "permalink": "/docs/module2-digital-twin/unity-rendering"
+  }
+}

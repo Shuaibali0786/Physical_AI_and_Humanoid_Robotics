@@ -1,0 +1,24 @@
+{
+  "id": "modules/physical-ai-fundamentals/physics-informed-ml",
+  "title": "Physics-Informed Machine Learning",
+  "description": "Introduction to Physics-Informed ML",
+  "source": "@site/docs/modules/physical-ai-fundamentals/physics-informed-ml.md",
+  "sourceDirName": "modules/physical-ai-fundamentals",
+  "slug": "/modules/physical-ai-fundamentals/physics-informed-ml",
+  "permalink": "/modules/physical-ai-fundamentals/physics-informed-ml",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/physical-ai-fundamentals/physics-informed-ml.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Embodied Cognition Principles",
+    "permalink": "/modules/physical-ai-fundamentals/embodied-cognition"
+  },
+  "next": {
+    "title": "Module 3: Sensory Systems and Perception",
+    "permalink": "/modules/sensory-systems-perception/"
+  }
+}

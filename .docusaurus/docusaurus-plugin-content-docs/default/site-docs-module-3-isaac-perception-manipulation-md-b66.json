@@ -1,0 +1,23 @@
+{
+  "id": "module3-isaac/perception-manipulation",
+  "title": "Perception and Manipulation with Isaac Sim",
+  "description": "Introduction to Perception-Action Integration",
+  "source": "@site/docs/module3-isaac/perception-manipulation.md",
+  "sourceDirName": "module3-isaac",
+  "slug": "/module3-isaac/perception-manipulation",
+  "permalink": "/docs/module3-isaac/perception-manipulation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Nav2 Path Planning for Bipedal Humanoids",
+    "permalink": "/docs/module3-isaac/nav2-planning"
+  },
+  "next": {
+    "title": "Reinforcement Learning in Robotics with Isaac Sim",
+    "permalink": "/docs/module3-isaac/reinforcement-learning"
+  }
+}

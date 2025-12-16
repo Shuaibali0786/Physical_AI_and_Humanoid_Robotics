@@ -1,0 +1,23 @@
+{
+  "id": "references/ros2-sources",
+  "title": "ROS 2 Sources and References",
+  "description": "This page contains the sources and references used in the ROS 2 module, following APA citation format. As required by the project constitution, at least 50% of these sources are peer-reviewed articles or official documentation.",
+  "source": "@site/docs/references/ros2-sources.md",
+  "sourceDirName": "references",
+  "slug": "/references/ros2-sources",
+  "permalink": "/docs/references/ros2-sources",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF Structure for Humanoid Robots",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure"
+  },
+  "next": {
+    "title": "Simple Robot Demo: Integrating All Concepts",
+    "permalink": "/docs/tutorials/simple-robot-demo"
+  }
+}

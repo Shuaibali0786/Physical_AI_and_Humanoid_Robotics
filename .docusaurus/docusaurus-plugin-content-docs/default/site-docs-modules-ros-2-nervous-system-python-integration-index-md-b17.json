@@ -1,0 +1,26 @@
+{
+  "id": "modules/ros2-nervous-system/python-integration/index",
+  "title": "Python Agents & ROS 2 Integration",
+  "description": "This section covers how to integrate Python agents with ROS 2 using the rclpy library. Python's rich ecosystem of AI and robotics libraries makes it an excellent choice for creating intelligent robotic applications.",
+  "source": "@site/docs/modules/ros2-nervous-system/python-integration/index.md",
+  "sourceDirName": "modules/ros2-nervous-system/python-integration",
+  "slug": "/modules/ros2-nervous-system/python-integration/",
+  "permalink": "/docs/modules/ros2-nervous-system/python-integration/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "modules",
+  "previous": {
+    "title": "Exercises: ROS 2 Basics",
+    "permalink": "/docs/modules/ros2-nervous-system/basics/exercises"
+  },
+  "next": {
+    "title": "rclpy Basics",
+    "permalink": "/docs/modules/ros2-nervous-system/python-integration/rclpy-basics"
+  }
+}

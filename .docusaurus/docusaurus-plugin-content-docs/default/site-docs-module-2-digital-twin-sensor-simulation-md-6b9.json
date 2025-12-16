@@ -1,0 +1,23 @@
+{
+  "id": "module2-digital-twin/sensor-simulation",
+  "title": "Simulating Sensors: LiDAR, Depth Cameras, IMUs",
+  "description": "Introduction to Sensor Simulation",
+  "source": "@site/docs/module2-digital-twin/sensor-simulation.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/sensor-simulation",
+  "permalink": "/docs/module2-digital-twin/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "High-Fidelity Rendering in Unity",
+    "permalink": "/docs/module2-digital-twin/unity-rendering"
+  },
+  "next": {
+    "title": "Gazebo Environment Setup",
+    "permalink": "/docs/module2-digital-twin/gazebo-setup"
+  }
+}

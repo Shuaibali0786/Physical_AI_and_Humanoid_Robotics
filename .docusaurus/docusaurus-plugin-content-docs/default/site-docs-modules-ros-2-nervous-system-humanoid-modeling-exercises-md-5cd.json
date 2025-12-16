@@ -1,0 +1,23 @@
+{
+  "id": "modules/ros2-nervous-system/humanoid-modeling/exercises",
+  "title": "Exercises: Humanoid Robot Modeling with URDF",
+  "description": "Exercise 1: Basic URDF Robot",
+  "source": "@site/docs/modules/ros2-nervous-system/humanoid-modeling/exercises.md",
+  "sourceDirName": "modules/ros2-nervous-system/humanoid-modeling",
+  "slug": "/modules/ros2-nervous-system/humanoid-modeling/exercises",
+  "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/exercises",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Simulation Setup for Humanoid Robots",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup"
+  },
+  "next": {
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/docs/module2-digital-twin/intro"
+  }
+}

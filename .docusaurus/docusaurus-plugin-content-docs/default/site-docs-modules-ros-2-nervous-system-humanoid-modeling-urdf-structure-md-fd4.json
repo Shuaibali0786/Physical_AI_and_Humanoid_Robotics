@@ -1,0 +1,23 @@
+{
+  "id": "modules/ros2-nervous-system/humanoid-modeling/urdf-structure",
+  "title": "URDF Structure for Humanoid Robots",
+  "description": "Introduction to URDF",
+  "source": "@site/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure.md",
+  "sourceDirName": "modules/ros2-nervous-system/humanoid-modeling",
+  "slug": "/modules/ros2-nervous-system/humanoid-modeling/urdf-structure",
+  "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Humanoid Robot Modeling with URDF",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/"
+  },
+  "next": {
+    "title": "Simulation Setup for Humanoid Robots",
+    "permalink": "/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup"
+  }
+}

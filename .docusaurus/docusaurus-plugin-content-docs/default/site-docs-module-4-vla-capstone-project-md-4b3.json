@@ -1,0 +1,19 @@
+{
+  "id": "module4-vla/capstone-project",
+  "title": "Capstone Project: Autonomous Humanoid",
+  "description": "Introduction to the Capstone Project",
+  "source": "@site/docs/module4-vla/capstone-project.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/capstone-project",
+  "permalink": "/docs/module4-vla/capstone-project",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Multi-modal Interaction: Speech, Gesture, and Vision",
+    "permalink": "/docs/module4-vla/multimodal-interaction"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "modules/sensory-systems-perception/index",
+  "title": "Module 3: Sensory Systems and Perception",
+  "description": "Learning Objectives",
+  "source": "@site/docs/modules/sensory-systems-perception/index.md",
+  "sourceDirName": "modules/sensory-systems-perception",
+  "slug": "/modules/sensory-systems-perception/",
+  "permalink": "/modules/sensory-systems-perception/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/sensory-systems-perception/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Physics-Informed Machine Learning",
+    "permalink": "/modules/physical-ai-fundamentals/physics-informed-ml"
+  },
+  "next": {
+    "title": "Multimodal Sensor Integration",
+    "permalink": "/modules/sensory-systems-perception/multimodal-sensors"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "modules/ros2-nervous-system/index",
+  "title": "ROS 2 Robotic Nervous System",
+  "description": "Welcome to the ROS 2 module of the Physical AI & Humanoid Robotics book. This module covers the fundamentals of ROS 2 architecture, Python integration, and humanoid modeling.",
+  "source": "@site/docs/modules/ros2-nervous-system/index.md",
+  "sourceDirName": "modules/ros2-nervous-system",
+  "slug": "/modules/ros2-nervous-system/",
+  "permalink": "/docs/modules/ros2-nervous-system/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "modules",
+  "next": {
+    "title": "ROS 2 Basics & Middleware",
+    "permalink": "/docs/modules/ros2-nervous-system/basics/"
+  }
+}

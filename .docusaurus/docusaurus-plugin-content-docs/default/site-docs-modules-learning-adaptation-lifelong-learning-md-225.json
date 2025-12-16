@@ -1,0 +1,24 @@
+{
+  "id": "modules/learning-adaptation/lifelong-learning",
+  "title": "Lifelong Learning Systems",
+  "description": "Introduction to Lifelong Learning in Robotics",
+  "source": "@site/docs/modules/learning-adaptation/lifelong-learning.md",
+  "sourceDirName": "modules/learning-adaptation",
+  "slug": "/modules/learning-adaptation/lifelong-learning",
+  "permalink": "/modules/learning-adaptation/lifelong-learning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "#/docs/modules/learning-adaptation/lifelong-learning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modules",
+  "previous": {
+    "title": "Module 5: Learning and Adaptation",
+    "permalink": "/modules/learning-adaptation/"
+  },
+  "next": {
+    "title": "Skill Acquisition and Transfer",
+    "permalink": "/modules/learning-adaptation/skill-acquisition"
+  }
+}
