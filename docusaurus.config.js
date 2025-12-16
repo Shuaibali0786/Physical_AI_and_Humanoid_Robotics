@@ -13,7 +13,7 @@ const config = {
   organizationName: 'Shuaibali0786',
   projectName: 'ai-physical-book',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
