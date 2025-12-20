@@ -1,6 +1,6 @@
 export default [
-  require("D:\\ai_physicial_book\\node_modules\\infima\\dist\\css\\default\\default.css"),
-  require("D:\\ai_physicial_book\\node_modules\\@docusaurus\\theme-classic\\lib\\prism-include-languages"),
-  require("D:\\ai_physicial_book\\node_modules\\@docusaurus\\theme-classic\\lib\\nprogress"),
-  require("D:\\ai_physicial_book\\src\\css\\custom.css"),
+  require("E:\\Physical_AI_and_Humanoid_Robotics\\node_modules\\infima\\dist\\css\\default\\default.css"),
+  require("E:\\Physical_AI_and_Humanoid_Robotics\\node_modules\\@docusaurus\\theme-classic\\lib\\prism-include-languages"),
+  require("E:\\Physical_AI_and_Humanoid_Robotics\\node_modules\\@docusaurus\\theme-classic\\lib\\nprogress"),
+  require("E:\\Physical_AI_and_Humanoid_Robotics\\src\\css\\custom.css"),
 ];
