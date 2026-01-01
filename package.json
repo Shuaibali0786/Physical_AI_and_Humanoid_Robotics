@@ -5,8 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    // "build": "npx docusaurus build",
-    "build": "node node_modules/@docusaurus/core/bin/docusaurus.mjs build",
+    "build": "npx docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
