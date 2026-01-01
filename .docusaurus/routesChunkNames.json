@@ -1,216 +1,173 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/setup-332": {
-    "__comp": "__comp---site-src-pages-setup-js-210-213",
+    "__comp": "210b5ede",
     "__context": {
-      "plugin": "plugin---setupa-74-8b7"
+      "plugin": "a7456010"
     },
-    "config": "config---setup-5-e-9-629"
+    "config": "5e9f5e1a"
   },
   "/docs-60c": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-476": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs-3fc": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/-4a8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-c-37-4d0"
+    "__comp": "17896441",
+    "content": "c377a04b"
   },
   "/docs/module2-digital-twin/gazebo-physics-965": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-gazebo-physicsbd-4-06a"
+    "__comp": "17896441",
+    "content": "bd43c948"
   },
   "/docs/module2-digital-twin/gazebo-setup-fbd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-gazebo-setup-1-ac-97d"
+    "__comp": "17896441",
+    "content": "1ac3ff8e"
   },
   "/docs/module2-digital-twin/intro-434": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-intro-267-113"
+    "__comp": "17896441",
+    "content": "267e1c29"
   },
   "/docs/module2-digital-twin/sensor-simulation-c76": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-sensor-simulation-6-b-9-9d3"
+    "__comp": "17896441",
+    "content": "6b9576a7"
   },
   "/docs/module2-digital-twin/unity-rendering-d7a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-unity-renderinga-2-b-470"
+    "__comp": "17896441",
+    "content": "a2bbbed9"
   },
   "/docs/module2-digital-twin/urdf-sdf-a83": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-urdf-sdf-541-bbf"
+    "__comp": "17896441",
+    "content": "541ac404"
   },
   "/docs/module3-isaac/intro-5d9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-introc-28-5eb"
+    "__comp": "17896441",
+    "content": "c28616e6"
   },
   "/docs/module3-isaac/isaac-ros-vslam-634": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-isaac-ros-vslamd-83-b22"
+    "__comp": "17896441",
+    "content": "d8337a95"
   },
   "/docs/module3-isaac/isaac-sim-245": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-isaac-simb-6-c-69c"
+    "__comp": "17896441",
+    "content": "b6cd0c06"
   },
   "/docs/module3-isaac/nav2-planning-341": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-nav-2-planning-3-f-9-33c"
+    "__comp": "17896441",
+    "content": "3f9cbef7"
   },
   "/docs/module3-isaac/perception-manipulation-a2e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-perception-manipulationb-66-e4c"
+    "__comp": "17896441",
+    "content": "b6655c94"
   },
   "/docs/module3-isaac/reinforcement-learning-9b5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-reinforcement-learningbb-7-97c"
+    "__comp": "17896441",
+    "content": "bb7c5b6c"
   },
   "/docs/module3-isaac/sim-to-real-850": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-sim-to-real-42-d-934"
+    "__comp": "17896441",
+    "content": "42d60ab4"
   },
   "/docs/module3-isaac/synthetic-data-569": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-isaac-synthetic-datab-41-002"
+    "__comp": "17896441",
+    "content": "b41aa69b"
   },
   "/docs/module4-vla/capstone-project-96a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-capstone-project-4-b-3-823"
+    "__comp": "17896441",
+    "content": "4b384612"
   },
   "/docs/module4-vla/cognitive-planning-ce8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-cognitive-planning-575-f43"
+    "__comp": "17896441",
+    "content": "57500a5c"
   },
   "/docs/module4-vla/intro-19a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-introcec-4e8"
+    "__comp": "17896441",
+    "content": "cec8bda3"
   },
   "/docs/module4-vla/multimodal-interaction-b08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-multimodal-interaction-7-ab-477"
+    "__comp": "17896441",
+    "content": "7ab6b147"
   },
   "/docs/module4-vla/speech-recognition-223": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-speech-recognitionba-7-049"
+    "__comp": "17896441",
+    "content": "ba713948"
   },
   "/docs/module4-vla/voice-to-action-c0e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-voice-to-action-598-4a8"
+    "__comp": "17896441",
+    "content": "598b0cb4"
   },
   "/docs/modules/ros2-nervous-system/-d89": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-5-fd-05d"
+    "__comp": "17896441",
+    "content": "5fd63c42"
   },
   "/docs/modules/ros2-nervous-system/basics/-cb3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-basics-6-f-4-705"
+    "__comp": "17896441",
+    "content": "6f434ea3"
   },
   "/docs/modules/ros2-nervous-system/basics/communication-patterns-76d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-basics-communication-patternsa-0-a-dfe"
+    "__comp": "17896441",
+    "content": "a0a2f61c"
   },
   "/docs/modules/ros2-nervous-system/basics/exercises-de2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-basics-exercisescfb-05b"
+    "__comp": "17896441",
+    "content": "cfb07ee0"
   },
   "/docs/modules/ros2-nervous-system/basics/nodes-topics-services-324": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-basics-nodes-topics-servicesdf-2-2da"
+    "__comp": "17896441",
+    "content": "df21cb2d"
   },
   "/docs/modules/ros2-nervous-system/humanoid-modeling/-850": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-humanoid-modeling-5-f-0-23c"
+    "__comp": "17896441",
+    "content": "5f0540c2"
   },
   "/docs/modules/ros2-nervous-system/humanoid-modeling/exercises-c6e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-humanoid-modeling-exercises-5-cd-597"
+    "__comp": "17896441",
+    "content": "5cd5a403"
   },
   "/docs/modules/ros2-nervous-system/humanoid-modeling/simulation-setup-6ed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-humanoid-modeling-simulation-setup-8-f-6-1bd"
+    "__comp": "17896441",
+    "content": "8f64f9cd"
   },
   "/docs/modules/ros2-nervous-system/humanoid-modeling/urdf-structure-c14": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-humanoid-modeling-urdf-structurefd-4-d36"
+    "__comp": "17896441",
+    "content": "fd48b05c"
   },
   "/docs/modules/ros2-nervous-system/python-integration/-f66": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-python-integration-b-17-e83"
+    "__comp": "17896441",
+    "content": "b17f0ba0"
   },
   "/docs/modules/ros2-nervous-system/python-integration/agent-communication-028": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-python-integration-agent-communication-409-bce"
+    "__comp": "17896441",
+    "content": "40913e5f"
   },
   "/docs/modules/ros2-nervous-system/python-integration/exercises-f08": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-python-integration-exercisesbd-4-dde"
+    "__comp": "17896441",
+    "content": "bd4d1acd"
   },
   "/docs/modules/ros2-nervous-system/python-integration/rclpy-basics-2ef": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-modules-ros-2-nervous-system-python-integration-rclpy-basicscdd-441"
+    "__comp": "17896441",
+    "content": "cddd65c6"
   },
   "/docs/references/ros2-sources-ee4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-references-ros-2-sources-1-ce-0c0"
+    "__comp": "17896441",
+    "content": "1ce3405d"
   },
   "/docs/tutorials/simple-robot-demo-00d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorials-simple-robot-demoff-6-fbf"
+    "__comp": "17896441",
+    "content": "ff6d3862"
   },
   "/-2e1": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---setupa-74-8b7"
+      "plugin": "a7456010"
     },
-    "config": "config---setup-5-e-9-629"
+    "config": "5e9f5e1a"
   }
 }

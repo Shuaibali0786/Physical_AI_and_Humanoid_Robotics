@@ -69,7 +69,7 @@ export default {
           ]
         }
       ],
-      "copyright": "© 2025 Physical AI & Humanoid Robotics. Built with Docusaurus."
+      "copyright": "© 2026 Physical AI & Humanoid Robotics. Built with Docusaurus."
     },
     "prism": {
       "theme": {
