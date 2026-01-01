@@ -42,13 +42,6 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/setup-332": {
-    "__comp": "__comp---site-src-pages-setup-js-210-213",
-    "__context": {
-      "plugin": "plugin---setupa-74-8b7"
-    },
-    "config": "config---setup-5-e-9-629"
-  },
   "/docs-60c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
@@ -209,8 +202,8 @@
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---setupa-74-8b7"
+      "plugin": "plugin---a-74-9d6"
     },
-    "config": "config---setup-5-e-9-629"
+    "config": "config---5-e-9-4f3"
   }
 }
