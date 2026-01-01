@@ -3,24 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    // "docusaurus": "docusaurus",
-    // "start": "docusaurus start",
-    // "build": "npx docusaurus build",
-    // "swizzle": "docusaurus swizzle",
-    // "deploy": "docusaurus deploy",
-    // "clear": "docusaurus clear",
-    // "serve": "docusaurus serve",
-    // "write-translations": "docusaurus write-translations",
-    // "write-heading-ids": "docusaurus write-heading-ids"
-     "start": "node node_modules/@docusaurus/core/bin/docusaurus.mjs start",
-  "build": "node node_modules/@docusaurus/core/bin/docusaurus.mjs build",
-  "serve": "node node_modules/@docusaurus/core/bin/docusaurus.mjs serve",
-  "clear": "node node_modules/@docusaurus/core/bin/docusaurus.mjs clear",
-  "swizzle": "node node_modules/@docusaurus/core/bin/docusaurus.mjs swizzle",
-  "deploy": "node node_modules/@docusaurus/core/bin/docusaurus.mjs deploy",
-  "write-translations": "node node_modules/@docusaurus/core/bin/docusaurus.mjs write-translations",
-  "write-heading-ids": "node node_modules/@docusaurus/core/bin/docusaurus.mjs write-heading-ids"
-
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
