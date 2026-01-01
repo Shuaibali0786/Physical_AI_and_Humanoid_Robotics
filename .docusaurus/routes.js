@@ -3,11 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/setup',
-    component: ComponentCreator('/setup', '332'),
-    exact: true
-  },
-  {
     path: '/docs',
     component: ComponentCreator('/docs', '60c'),
     routes: [

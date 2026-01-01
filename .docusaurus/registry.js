@@ -3,7 +3,6 @@ export default {
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "1ac3ff8e": [() => import(/* webpackChunkName: "1ac3ff8e" */ "@site/docs/module2-digital-twin/gazebo-setup.md"), "@site/docs/module2-digital-twin/gazebo-setup.md", require.resolveWeak("@site/docs/module2-digital-twin/gazebo-setup.md")],
   "1ce3405d": [() => import(/* webpackChunkName: "1ce3405d" */ "@site/docs/references/ros2-sources.md"), "@site/docs/references/ros2-sources.md", require.resolveWeak("@site/docs/references/ros2-sources.md")],
-  "210b5ede": [() => import(/* webpackChunkName: "210b5ede" */ "@site/src/pages/setup.js"), "@site/src/pages/setup.js", require.resolveWeak("@site/src/pages/setup.js")],
   "267e1c29": [() => import(/* webpackChunkName: "267e1c29" */ "@site/docs/module2-digital-twin/intro.md"), "@site/docs/module2-digital-twin/intro.md", require.resolveWeak("@site/docs/module2-digital-twin/intro.md")],
   "3f9cbef7": [() => import(/* webpackChunkName: "3f9cbef7" */ "@site/docs/module3-isaac/nav2-planning.md"), "@site/docs/module3-isaac/nav2-planning.md", require.resolveWeak("@site/docs/module3-isaac/nav2-planning.md")],
   "40913e5f": [() => import(/* webpackChunkName: "40913e5f" */ "@site/docs/modules/ros2-nervous-system/python-integration/agent-communication.md"), "@site/docs/modules/ros2-nervous-system/python-integration/agent-communication.md", require.resolveWeak("@site/docs/modules/ros2-nervous-system/python-integration/agent-communication.md")],

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-module2-digital-twin/unity-rendering" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">High-Fidelity Rendering in Unity | Physical AI &amp; Humanoid Robotics</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://your-docusaurus-site.example.com/docs/module2-digital-twin/unity-rendering"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="High-Fidelity Rendering in Unity | Physical AI &amp; Humanoid Robotics"><meta data-rh="true" name="description" content="Introduction to Unity for Robotics"><meta data-rh="true" property="og:description" content="Introduction to Unity for Robotics"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://your-docusaurus-site.example.com/docs/module2-digital-twin/unity-rendering"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/docs/module2-digital-twin/unity-rendering" hreflang="en"><link data-rh="true" rel="alternate" href="https://your-docusaurus-site.example.com/docs/module2-digital-twin/unity-rendering" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"High-Fidelity Rendering in Unity","item":"https://your-docusaurus-site.example.com/docs/module2-digital-twin/unity-rendering"}]}</script><link rel="stylesheet" href="/assets/css/styles.fc602cb6.css">
+<script src="/assets/js/runtime~main.4ce30fd9.js" defer="defer"></script>
+<script src="/assets/js/main.404c8e72.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">AI Humanoid Robotics</b></a><a class="navbar__item navbar__link" href="/docs/">Book</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/modules/ros2-nervous-system/"><span title="Module 1: The Robotic Nervous System (ROS 2)" class="categoryLinkLabel_W154">Module 1: The Robotic Nervous System (ROS 2)</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/module2-digital-twin/intro"><span title="Module 2: The Digital Twin (Gazebo &amp; Unity)" class="categoryLinkLabel_W154">Module 2: The Digital Twin (Gazebo &amp; Unity)</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/module2-digital-twin/intro"><span title="Module 2: The Digital Twin (Gazebo &amp; Unity)" class="linkLabel_WmDU">Module 2: The Digital Twin (Gazebo &amp; Unity)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/module2-digital-twin/gazebo-physics"><span title="Simulating Physics, Gravity, and Collisions in Gazebo" class="linkLabel_WmDU">Simulating Physics, Gravity, and Collisions in Gazebo</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/module2-digital-twin/unity-rendering"><span title="High-Fidelity Rendering in Unity" class="linkLabel_WmDU">High-Fidelity Rendering in Unity</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/module2-digital-twin/sensor-simulation"><span title="Simulating Sensors: LiDAR, Depth Cameras, IMUs" class="linkLabel_WmDU">Simulating Sensors: LiDAR, Depth Cameras, IMUs</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/module2-digital-twin/gazebo-setup"><span title="Gazebo Environment Setup" class="linkLabel_WmDU">Gazebo Environment Setup</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/module2-digital-twin/urdf-sdf"><span title="URDF and SDF Formats" class="linkLabel_WmDU">URDF and SDF Formats</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/module3-isaac/intro"><span title="Module 3: The AI-Robot Brain (NVIDIA Isaac™)" class="categoryLinkLabel_W154">Module 3: The AI-Robot Brain (NVIDIA Isaac™)</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/module4-vla/intro"><span title="Module 4: Vision-Language-Action (VLA)" class="categoryLinkLabel_W154">Module 4: Vision-Language-Action (VLA)</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Module 2: The Digital Twin (Gazebo &amp; Unity)</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">High-Fidelity Rendering in Unity</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>High-Fidelity Rendering in Unity</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduction-to-unity-for-robotics">Introduction to Unity for Robotics<a href="#introduction-to-unity-for-robotics" class="hash-link" aria-label="Direct link to Introduction to Unity for Robotics" title="Direct link to Introduction to Unity for Robotics" translate="no">​</a></h2>
+<p>Unity is a powerful 3D development platform that excels in high-fidelity rendering and realistic visual simulation. When combined with robotics frameworks, Unity provides photorealistic environments for training and testing humanoid robots.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="unity-robotics-setup">Unity Robotics Setup<a href="#unity-robotics-setup" class="hash-link" aria-label="Direct link to Unity Robotics Setup" title="Direct link to Unity Robotics Setup" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="unity-robotics-hub">Unity Robotics Hub<a href="#unity-robotics-hub" class="hash-link" aria-label="Direct link to Unity Robotics Hub" title="Direct link to Unity Robotics Hub" translate="no">​</a></h3>
+<p>The Unity Robotics Hub provides essential tools and packages for robotics simulation:</p>
+<ul>
+<li class=""><strong>Unity Robotics Package</strong>: Core robotics functionality</li>
+<li class=""><strong>Unity Simulation Package</strong>: Large-scale simulation capabilities</li>
+<li class=""><strong>Unity Perception Package</strong>: Synthetic data generation</li>
+<li class=""><strong>ML-Agents</strong>: Machine learning for robotics</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="project-configuration">Project Configuration<a href="#project-configuration" class="hash-link" aria-label="Direct link to Project Configuration" title="Direct link to Project Configuration" translate="no">​</a></h3>
+<p>Configure Unity for robotics applications:</p>
+<ul>
+<li class=""><strong>Physics settings</strong>: Optimize for robot simulation</li>
+<li class=""><strong>Rendering pipeline</strong>: Choose appropriate rendering pipeline (URP, HDRP)</li>
+<li class=""><strong>Quality settings</strong>: Balance visual quality with performance</li>
+<li class=""><strong>Build settings</strong>: Configure for headless operation if needed</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="high-fidelity-visual-simulation">High-Fidelity Visual Simulation<a href="#high-fidelity-visual-simulation" class="hash-link" aria-label="Direct link to High-Fidelity Visual Simulation" title="Direct link to High-Fidelity Visual Simulation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="physically-based-rendering-pbr">Physically-Based Rendering (PBR)<a href="#physically-based-rendering-pbr" class="hash-link" aria-label="Direct link to Physically-Based Rendering (PBR)" title="Direct link to Physically-Based Rendering (PBR)" translate="no">​</a></h3>
+<p>Unity&#x27;s PBR system creates realistic materials:</p>
+<ul>
+<li class=""><strong>Albedo maps</strong>: Base color information</li>
+<li class=""><strong>Normal maps</strong>: Surface detail and geometry</li>
+<li class=""><strong>Metallic maps</strong>: Surface reflectivity properties</li>
+<li class=""><strong>Roughness maps</strong>: Surface smoothness characteristics</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lighting-systems">Lighting Systems<a href="#lighting-systems" class="hash-link" aria-label="Direct link to Lighting Systems" title="Direct link to Lighting Systems" translate="no">​</a></h3>
+<p>Create realistic lighting conditions:</p>
+<ul>
+<li class=""><strong>Directional lights</strong>: Simulate sun or main light source</li>
+<li class=""><strong>Point lights</strong>: Simulate artificial lighting</li>
+<li class=""><strong>Area lights</strong>: Realistic soft shadows</li>
+<li class=""><strong>Light probes</strong>: Efficient lighting for moving objects</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="post-processing-effects">Post-Processing Effects<a href="#post-processing-effects" class="hash-link" aria-label="Direct link to Post-Processing Effects" title="Direct link to Post-Processing Effects" translate="no">​</a></h3>
+<p>Enhance visual realism:</p>
+<ul>
+<li class=""><strong>Bloom</strong>: Simulate bright light overflow</li>
+<li class=""><strong>Ambient occlusion</strong>: Add depth and realism</li>
+<li class=""><strong>Color grading</strong>: Adjust overall color tone</li>
+<li class=""><strong>Depth of field</strong>: Simulate camera focus</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="environment-design">Environment Design<a href="#environment-design" class="hash-link" aria-label="Direct link to Environment Design" title="Direct link to Environment Design" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="terrain-and-landscapes">Terrain and Landscapes<a href="#terrain-and-landscapes" class="hash-link" aria-label="Direct link to Terrain and Landscapes" title="Direct link to Terrain and Landscapes" translate="no">​</a></h3>
+<p>Create realistic outdoor environments:</p>
+<ul>
+<li class=""><strong>Terrain tools</strong>: Sculpt natural landscapes</li>
+<li class=""><strong>Tree placement</strong>: Add vegetation for realism</li>
+<li class=""><strong>Texture painting</strong>: Apply surface materials</li>
+<li class=""><strong>Water systems</strong>: Simulate realistic water bodies</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="indoor-environments">Indoor Environments<a href="#indoor-environments" class="hash-link" aria-label="Direct link to Indoor Environments" title="Direct link to Indoor Environments" translate="no">​</a></h3>
+<p>Design complex indoor spaces:</p>
+<ul>
+<li class=""><strong>ProBuilder</strong>: Create architectural elements</li>
+<li class=""><strong>Prefab systems</strong>: Reusable environment components</li>
+<li class=""><strong>Lightmapping</strong>: Pre-calculated lighting for static scenes</li>
+<li class=""><strong>Occlusion culling</strong>: Optimize rendering performance</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sensor-simulation-in-unity">Sensor Simulation in Unity<a href="#sensor-simulation-in-unity" class="hash-link" aria-label="Direct link to Sensor Simulation in Unity" title="Direct link to Sensor Simulation in Unity" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="camera-simulation">Camera Simulation<a href="#camera-simulation" class="hash-link" aria-label="Direct link to Camera Simulation" title="Direct link to Camera Simulation" translate="no">​</a></h3>
+<p>Create realistic camera sensors:</p>
+<ul>
+<li class=""><strong>Field of view</strong>: Match physical camera specifications</li>
+<li class=""><strong>Sensor size</strong>: Configure for specific camera models</li>
+<li class=""><strong>Distortion</strong>: Apply realistic lens distortion</li>
+<li class=""><strong>Dynamic range</strong>: Simulate real camera response</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lidar-simulation">LiDAR Simulation<a href="#lidar-simulation" class="hash-link" aria-label="Direct link to LiDAR Simulation" title="Direct link to LiDAR Simulation" translate="no">​</a></h3>
+<p>Unity provides LiDAR simulation capabilities:</p>
+<ul>
+<li class=""><strong>Raycasting</strong>: Simulate LiDAR beam projection</li>
+<li class=""><strong>Point cloud generation</strong>: Create realistic point clouds</li>
+<li class=""><strong>Noise modeling</strong>: Add realistic sensor noise</li>
+<li class=""><strong>Range limitations</strong>: Simulate real sensor constraints</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="depth-camera-simulation">Depth Camera Simulation<a href="#depth-camera-simulation" class="hash-link" aria-label="Direct link to Depth Camera Simulation" title="Direct link to Depth Camera Simulation" translate="no">​</a></h3>
+<p>Simulate depth sensors with Unity:</p>
+<ul>
+<li class=""><strong>Depth buffers</strong>: Extract depth information</li>
+<li class=""><strong>Stereo vision</strong>: Simulate stereo camera systems</li>
+<li class=""><strong>ToF sensors</strong>: Time-of-flight sensor simulation</li>
+<li class=""><strong>Accuracy modeling</strong>: Realistic depth error simulation</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-optimization">Performance Optimization<a href="#performance-optimization" class="hash-link" aria-label="Direct link to Performance Optimization" title="Direct link to Performance Optimization" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rendering-optimization">Rendering Optimization<a href="#rendering-optimization" class="hash-link" aria-label="Direct link to Rendering Optimization" title="Direct link to Rendering Optimization" translate="no">​</a></h3>
+<p>Balance quality and performance:</p>
+<ul>
+<li class=""><strong>LOD systems</strong>: Level-of-detail for complex models</li>
+<li class=""><strong>Occlusion culling</strong>: Don&#x27;t render hidden objects</li>
+<li class=""><strong>Frustum culling</strong>: Don&#x27;t render off-screen objects</li>
+<li class=""><strong>Texture streaming</strong>: Load textures as needed</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multi-threading">Multi-threading<a href="#multi-threading" class="hash-link" aria-label="Direct link to Multi-threading" title="Direct link to Multi-threading" translate="no">​</a></h3>
+<p>Utilize Unity&#x27;s multi-threading capabilities:</p>
+<ul>
+<li class=""><strong>Job system</strong>: Parallel processing of robot behaviors</li>
+<li class=""><strong>Burst compiler</strong>: Optimized code compilation</li>
+<li class=""><strong>Entity Component System (ECS)</strong>: Efficient object management</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="integration-with-robotics-frameworks">Integration with Robotics Frameworks<a href="#integration-with-robotics-frameworks" class="hash-link" aria-label="Direct link to Integration with Robotics Frameworks" title="Direct link to Integration with Robotics Frameworks" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ros-integration">ROS# Integration<a href="#ros-integration" class="hash-link" aria-label="Direct link to ROS# Integration" title="Direct link to ROS# Integration" translate="no">​</a></h3>
+<p>Connect Unity to ROS 2:</p>
+<ul>
+<li class=""><strong>ROS# library</strong>: C# ROS client for Unity</li>
+<li class=""><strong>Message serialization</strong>: Efficient data transfer</li>
+<li class=""><strong>Service calls</strong>: Remote procedure calls</li>
+<li class=""><strong>Action servers</strong>: Long-running robot tasks</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="custom-communication">Custom Communication<a href="#custom-communication" class="hash-link" aria-label="Direct link to Custom Communication" title="Direct link to Custom Communication" translate="no">​</a></h3>
+<p>Implement custom communication protocols:</p>
+<ul>
+<li class=""><strong>TCP/UDP sockets</strong>: Direct communication</li>
+<li class=""><strong>HTTP APIs</strong>: Web-based interfaces</li>
+<li class=""><strong>Shared memory</strong>: High-performance local communication</li>
+<li class=""><strong>Message queues</strong>: Asynchronous communication</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="synthetic-data-generation">Synthetic Data Generation<a href="#synthetic-data-generation" class="hash-link" aria-label="Direct link to Synthetic Data Generation" title="Direct link to Synthetic Data Generation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="perception-package">Perception Package<a href="#perception-package" class="hash-link" aria-label="Direct link to Perception Package" title="Direct link to Perception Package" translate="no">​</a></h3>
+<p>Unity&#x27;s Perception package enables synthetic data generation:</p>
+<ul>
+<li class=""><strong>Ground truth annotation</strong>: Automatic labeling</li>
+<li class=""><strong>Camera calibration</strong>: Realistic camera parameters</li>
+<li class=""><strong>Sensor fusion</strong>: Combine multiple sensor types</li>
+<li class=""><strong>Dataset generation</strong>: Large-scale data creation</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="domain-randomization">Domain Randomization<a href="#domain-randomization" class="hash-link" aria-label="Direct link to Domain Randomization" title="Direct link to Domain Randomization" translate="no">​</a></h3>
+<p>Improve model robustness through domain randomization:</p>
+<ul>
+<li class=""><strong>Material randomization</strong>: Vary surface appearances</li>
+<li class=""><strong>Lighting randomization</strong>: Change lighting conditions</li>
+<li class=""><strong>Object placement</strong>: Randomize object positions</li>
+<li class=""><strong>Camera parameters</strong>: Vary sensor settings</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quality-assurance">Quality Assurance<a href="#quality-assurance" class="hash-link" aria-label="Direct link to Quality Assurance" title="Direct link to Quality Assurance" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="validation-techniques">Validation Techniques<a href="#validation-techniques" class="hash-link" aria-label="Direct link to Validation Techniques" title="Direct link to Validation Techniques" translate="no">​</a></h3>
+<p>Ensure simulation quality:</p>
+<ul>
+<li class=""><strong>Real-world comparison</strong>: Compare with real data</li>
+<li class=""><strong>Cross-validation</strong>: Compare with other simulators</li>
+<li class=""><strong>Perception validation</strong>: Validate sensor outputs</li>
+<li class=""><strong>Physics validation</strong>: Verify physical realism</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="benchmarking">Benchmarking<a href="#benchmarking" class="hash-link" aria-label="Direct link to Benchmarking" title="Direct link to Benchmarking" translate="no">​</a></h3>
+<p>Establish performance benchmarks:</p>
+<ul>
+<li class=""><strong>Frame rate</strong>: Maintain real-time performance</li>
+<li class=""><strong>Visual fidelity</strong>: Measure realism quality</li>
+<li class=""><strong>Physical accuracy</strong>: Validate physics simulation</li>
+<li class=""><strong>Sensor accuracy</strong>: Ensure sensor realism</li>
+</ul>
+<p>Unity&#x27;s high-fidelity rendering capabilities make it an excellent choice for creating photorealistic environments for humanoid robot training and testing, providing visual quality that closely matches real-world conditions.</p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/module2-digital-twin/gazebo-physics"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Simulating Physics, Gravity, and Collisions in Gazebo</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/module2-digital-twin/sensor-simulation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Simulating Sensors: LiDAR, Depth Cameras, IMUs</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction-to-unity-for-robotics" class="table-of-contents__link toc-highlight">Introduction to Unity for Robotics</a></li><li><a href="#unity-robotics-setup" class="table-of-contents__link toc-highlight">Unity Robotics Setup</a><ul><li><a href="#unity-robotics-hub" class="table-of-contents__link toc-highlight">Unity Robotics Hub</a></li><li><a href="#project-configuration" class="table-of-contents__link toc-highlight">Project Configuration</a></li></ul></li><li><a href="#high-fidelity-visual-simulation" class="table-of-contents__link toc-highlight">High-Fidelity Visual Simulation</a><ul><li><a href="#physically-based-rendering-pbr" class="table-of-contents__link toc-highlight">Physically-Based Rendering (PBR)</a></li><li><a href="#lighting-systems" class="table-of-contents__link toc-highlight">Lighting Systems</a></li><li><a href="#post-processing-effects" class="table-of-contents__link toc-highlight">Post-Processing Effects</a></li></ul></li><li><a href="#environment-design" class="table-of-contents__link toc-highlight">Environment Design</a><ul><li><a href="#terrain-and-landscapes" class="table-of-contents__link toc-highlight">Terrain and Landscapes</a></li><li><a href="#indoor-environments" class="table-of-contents__link toc-highlight">Indoor Environments</a></li></ul></li><li><a href="#sensor-simulation-in-unity" class="table-of-contents__link toc-highlight">Sensor Simulation in Unity</a><ul><li><a href="#camera-simulation" class="table-of-contents__link toc-highlight">Camera Simulation</a></li><li><a href="#lidar-simulation" class="table-of-contents__link toc-highlight">LiDAR Simulation</a></li><li><a href="#depth-camera-simulation" class="table-of-contents__link toc-highlight">Depth Camera Simulation</a></li></ul></li><li><a href="#performance-optimization" class="table-of-contents__link toc-highlight">Performance Optimization</a><ul><li><a href="#rendering-optimization" class="table-of-contents__link toc-highlight">Rendering Optimization</a></li><li><a href="#multi-threading" class="table-of-contents__link toc-highlight">Multi-threading</a></li></ul></li><li><a href="#integration-with-robotics-frameworks" class="table-of-contents__link toc-highlight">Integration with Robotics Frameworks</a><ul><li><a href="#ros-integration" class="table-of-contents__link toc-highlight">ROS# Integration</a></li><li><a href="#custom-communication" class="table-of-contents__link toc-highlight">Custom Communication</a></li></ul></li><li><a href="#synthetic-data-generation" class="table-of-contents__link toc-highlight">Synthetic Data Generation</a><ul><li><a href="#perception-package" class="table-of-contents__link toc-highlight">Perception Package</a></li><li><a href="#domain-randomization" class="table-of-contents__link toc-highlight">Domain Randomization</a></li></ul></li><li><a href="#quality-assurance" class="table-of-contents__link toc-highlight">Quality Assurance</a><ul><li><a href="#validation-techniques" class="table-of-contents__link toc-highlight">Validation Techniques</a></li><li><a href="#benchmarking" class="table-of-contents__link toc-highlight">Benchmarking</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/Shuaibali0786" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">© 2026 Physical AI & Humanoid Robotics. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
