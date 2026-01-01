@@ -1,0 +1,5 @@
+/* Main chat component styles */
+.main-chat-container {
+  position: relative;
+  z-index: 1000;
+}

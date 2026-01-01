@@ -1,0 +1,238 @@
+openapi: 3.0.0
+info:
+  title: Search API
+  description: API for searching book modules and content
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api
+    description: Local development server
+
+paths:
+  /search:
+    get:
+      summary: Search across book modules
+      description: Search for content across all book modules
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search query string
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: false
+          description: Maximum number of results to return
+          schema:
+            type: integer
+            default: 10
+            minimum: 1
+            maximum: 100
+        - name: offset
+          in: query
+          required: false
+          description: Number of results to skip for pagination
+          schema:
+            type: integer
+            default: 0
+        - name: module
+          in: query
+          required: false
+          description: Specific module to search within
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+        '400':
+          description: Invalid query parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Search error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /search/history:
+    get:
+      summary: Get search history
+      description: Retrieve user's search history
+      responses:
+        '200':
+          description: Search history retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchHistoryResponse'
+        '500':
+          description: Error retrieving history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+    post:
+      summary: Add to search history
+      description: Add a new search query to the user's history
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddToSearchHistoryRequest'
+      responses:
+        '200':
+          description: Successfully added to search history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HistoryEntryResponse'
+        '400':
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Error adding to history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    SearchResponse:
+      type: object
+      required:
+        - results
+        - total
+        - query
+        - timestamp
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/SearchResult'
+        total:
+          type: number
+          description: Total number of matching results
+        query:
+          type: string
+          description: The search query that was performed
+        timestamp:
+          type: string
+          format: date-time
+          description: When the search was performed
+        took:
+          type: number
+          description: Time taken for the search in milliseconds
+
+    SearchResult:
+      type: object
+      required:
+        - id
+        - title
+        - content
+        - url
+        - module
+        - relevance
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the result
+        title:
+          type: string
+          description: Title of the matching content
+        content:
+          type: string
+          description: Excerpt of the matching content
+        url:
+          type: string
+          description: URL to the content location
+        module:
+          type: string
+          description: Book module containing the content
+        relevance:
+          type: number
+          description: Relevance score of the result (0-1)
+        position:
+          type: number
+          description: Position of the match within the content
+
+    AddToSearchHistoryRequest:
+      type: object
+      required:
+        - queryString
+        - resultsCount
+      properties:
+        queryString:
+          type: string
+          description: The search query string
+        resultsCount:
+          type: number
+          description: Number of results returned
+        module:
+          type: string
+          description: Module where search was initiated
+
+    SearchHistoryResponse:
+      type: object
+      properties:
+        queries:
+          type: array
+          items:
+            $ref: '#/components/schemas/SearchHistoryEntry'
+        total:
+          type: number
+          description: Total number of history entries
+
+    SearchHistoryEntry:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for this history entry
+        queryString:
+          type: string
+          description: The search query string
+        resultsCount:
+          type: number
+          description: Number of results returned
+        timestamp:
+          type: string
+          format: date-time
+          description: When the search was performed
+        module:
+          type: string
+          description: Module where search was initiated
+
+    HistoryEntryResponse:
+      type: object
+      properties:
+        historyId:
+          type: string
+          description: Unique identifier for the history entry
+        success:
+          type: boolean
+          description: Whether the operation was successful
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error code
+        message:
+          type: string
+          description: Error description

@@ -1,0 +1,207 @@
+openapi: 3.0.0
+info:
+  title: Translation API
+  description: API for English to Roman Urdu translation functionality
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api
+    description: Local development server
+
+paths:
+  /translate:
+    post:
+      summary: Translate English text to Roman Urdu
+      description: Converts English text to Roman Urdu format
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TranslateRequest'
+      responses:
+        '200':
+          description: Successful translation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TranslateResponse'
+        '400':
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Translation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /translation-history:
+    get:
+      summary: Get translation history
+      description: Retrieve user's translation history
+      responses:
+        '200':
+          description: Translation history retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TranslationHistoryResponse'
+        '500':
+          description: Error retrieving history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+    post:
+      summary: Add to translation history
+      description: Add a new translation to the user's history
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AddToHistoryRequest'
+      responses:
+        '200':
+          description: Successfully added to history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HistoryEntryResponse'
+        '400':
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Error adding to history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    TranslateRequest:
+      type: object
+      required:
+        - text
+        - sourceLanguage
+        - targetLanguage
+      properties:
+        text:
+          type: string
+          description: The text to be translated
+          example: "Hello, how are you?"
+        sourceLanguage:
+          type: string
+          description: The source language code
+          default: "en"
+        targetLanguage:
+          type: string
+          description: The target language code
+          default: "roman-urdu"
+        context:
+          type: string
+          description: Optional context for better translation
+          example: "greeting"
+
+    TranslateResponse:
+      type: object
+      required:
+        - translatedText
+        - requestId
+        - timestamp
+      properties:
+        translatedText:
+          type: string
+          description: The translated text in Roman Urdu
+          example: "Hello, aap kaise hain?"
+        requestId:
+          type: string
+          description: Unique identifier for the translation request
+          example: "uuid-12345"
+        timestamp:
+          type: string
+          format: date-time
+          description: When the translation was performed
+        originalText:
+          type: string
+          description: The original text that was translated
+          example: "Hello, how are you?"
+
+    AddToHistoryRequest:
+      type: object
+      required:
+        - originalText
+        - translatedText
+        - sourceModule
+      properties:
+        originalText:
+          type: string
+          description: The original English text
+        translatedText:
+          type: string
+          description: The Roman Urdu translation
+        sourceModule:
+          type: string
+          description: The book module where translation occurred
+          example: "module-1-introduction"
+
+    HistoryEntryResponse:
+      type: object
+      properties:
+        historyId:
+          type: string
+          description: Unique identifier for the history entry
+        success:
+          type: boolean
+          description: Whether the operation was successful
+
+    TranslationHistoryResponse:
+      type: object
+      properties:
+        entries:
+          type: array
+          items:
+            $ref: '#/components/schemas/HistoryEntry'
+        total:
+          type: number
+          description: Total number of history entries
+
+    HistoryEntry:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for this history entry
+        originalText:
+          type: string
+          description: The original English text
+        translatedText:
+          type: string
+          description: The Roman Urdu translation
+        timestamp:
+          type: string
+          format: date-time
+          description: When the translation was performed
+        sourceModule:
+          type: string
+          description: The book module where translation occurred
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error code
+        message:
+          type: string
+          description: Error description
